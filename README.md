@@ -19,7 +19,7 @@ Here cleaning of data means whatever data augmentation/feature engineering steps
 python shr.py
 ```
 Something like this must come up.
-<img src="images/first.PNG" width=300><br>
+<img src="images/first.PNG" width=300/><br>
 * Now your server is running.
 * You can try hitting the server by typing youripaddress:9000 in any browser a response "Hello" should be seen.
 * To know your ip address go to cmd->type ipconfig->ipv4 address is your ip address.
