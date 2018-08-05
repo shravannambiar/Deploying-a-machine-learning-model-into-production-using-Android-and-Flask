@@ -1,10 +1,10 @@
 # Deploying-a-machine-learning-model-into-production-using-Android-and-Flask
-I have been studying Machine Learning for the past 7-8 months , during that period of time while understanding the maths and theoritical concepts I always wondered how will it be to deoloy a model into production , since then I wanted to make my own app for a perticular case study.<br>
+I have been studying Machine Learning for the past 7-8 months , during that period of time while understanding the maths and theoritical concepts I always wondered how will it be to deploy a model into production , since then I wanted to make my own app for a particular case study.<br>
 Previously I have solved a case study "New York Taxi Duration" which appeared on kaggle competition.<br>You can find the developmnent of the model **here** : https://github.com/shravannambiar/New-York-Taxi-Duration<br>
 This project will be a extention to that case study ,I am trying to create an end to end system.
 <br>. Here a client server architecture is used, the model is running on a local machine and whenever an android sends data to the server , the server interprets the data, cleans the data and then feeds it to the machine learning model which then gives us a predicted value which is sent to the android .
 <br>
-Here cleaning of data means whatever data augmentation/feature engineering steps were  performed while creating the model have to be performed on the testing data.So make sure you understand my case study from the above mentioned **link**<br> 
+Here cleaning of data means, whatever data augmentation/feature engineering steps were  performed while creating the model have to be performed on the testing data.So make sure you understand my case study from the above mentioned **link**<br> 
 
 ## Pre-requisites
  * You can dowload the model from this link https://drive.google.com/open?id=1L8t5EWOjeDoY_jp2VfYnpf2Zp4tlgJMD .
@@ -36,10 +36,10 @@ Something like this must come up.
 * shr.py this is actual flask web server file responsible to process the data and model is loaded in this file.
 * temp1.py this file contains the class that is responsible for feature engineering the test data(couldn't think of a better name then).
 # Working of the server 
-* In flask there are different routes you can take using the 'ipaddress:portnumber' and for any defined route you have an function associated with it this function will be called if user goes to that route.
-* As you can see in shr.py line 16 , when no route is specified then a function which displays a "Hello" message is  called when a route 'ipaddress:portnumber/api' is mentoned then another function is called.
+* In flask there are different routes you can take using the 'ipaddress:portnumber' and for any defined route you have an function associated with it, this function will be called if user goes to that route.
+* As you can see in shr.py line 16 , when no route is specified then a function which displays a "Hello" message is  called and when a route 'ipaddress:portnumber/api' is mentoned then another function is called.
 * Since data is passed as json format , whenever /api is called then a json must be sent else eror is thrown.
-* After a json is recieved ,all the string datatypes are converted into numeric if any  it is then converted into pandas DataFrame from where all the feature engineering steps are taken place , then ultimately a predicted value in json format is sent to the android app.
+* After a json is recieved ,all the string datatypes are converted into numeric if any,  it is then converted into pandas DataFrame from where all the feature engineering steps are taken place , then ultimately a predicted value in json format is sent to the android app.
 ## Working of the App
 * The android app is sending a json data and is expecting a json reply from the server.
 * I am using volley which is a network library which makes networking for android apps fast and easy.
