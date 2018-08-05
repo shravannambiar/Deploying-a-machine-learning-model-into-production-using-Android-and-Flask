@@ -52,5 +52,4 @@ Something like this must come up.
  ### Recieving the response from server
 <img src="images/fourth.png" width=250/><br><br>
 
-<br>
-For any queries please email me at shravannambiar@gmail.com
+### For any queries please email me at shravannambiar@gmail.com
