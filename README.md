@@ -45,11 +45,11 @@ Something like this must come up.
 * Whenever the "predict" button is clicked the loaded data is converted into a json format and using the ip address and port number provided earlier, the jsonified data is sent to server.
 * Whenever a response is recieved from the server the results are displayed.
 ## ScreenShots
- Loading of csv
+ ### Loading of csv
 <img src="images/second.png" width=250/><br><br>
- Loading one datapoint 
+ ### Loading one datapoint 
 <img src="images/third.png" width=250/><br><br>
- Recieving the response from server
+ ### Recieving the response from server
 <img src="images/fourth.png" width=250/><br><br>
 
 <br>
