@@ -3,9 +3,9 @@ I have been studying Machine Learning for the past 7-8 months , during that peri
 Previously I have solved a case study "New York Taxi Duration" which appeared on kaggle competition.<br>You can find the developmnent of the model **here** : https://github.com/shravannambiar/New-York-Taxi-Duration<br>
 This project will be a extention to that case study ,I am trying to create an end to end system.
 <br>. Here a client server architecture is used, the model is running on a local machine and whenever an android sends data to the server , the server interprets the data, cleans the data and then feeds it to the machine learning model which then gives us a predicted value which is sent to the android .
-```
+<br>
 Here cleaning of data means whatever data augmentation/feature engineering steps were  performed while creating the model have to be performed on the testing data.So make sure you understand my case study from the above mentioned **link**<br> 
-```
+
 ## Pre-requisites
  * You can dowload the model from this link https://drive.google.com/open?id=1L8t5EWOjeDoY_jp2VfYnpf2Zp4tlgJMD .
  * Make sure flask is installed if not then use this command<br>
