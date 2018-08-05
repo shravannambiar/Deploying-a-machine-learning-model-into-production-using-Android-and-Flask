@@ -25,7 +25,7 @@ Something like this must come up.
 * Make sure that the server and android phone is on the same network.
 * Enter you ip address and enter port number as 9000.
 * There is a CSV embedded in the android app for testing you can just click the "Load CSV" button to load the csv.
-* After loading the csv Start reading the datapoints one by one.
+* After loading the csv Start reading the datapoints one by one.<br>
 **Note**:Since the data embedded inside the android app is random selection of data and if you have trained it in completely different data then some prediction errors may happen. If you want good accuracy then open the android project and copy your testing data in resource->raw directory from android studio and compile the app again.
 ## File Contents
 * mean_values.csv and var_values.csv these values are used to standarize the test point.
