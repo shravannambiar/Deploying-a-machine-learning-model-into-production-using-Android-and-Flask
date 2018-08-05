@@ -17,7 +17,7 @@ This project will be a extention to that case study ,I am trying to create an en
 python shr.py
 ```
 Something like this must come up.
-<img src="images/first.png" width=300><br>
+<img src="images/first.PNG" width=300><br>
 * Now your server is running.
 * You can try hitting the server by typing youripaddress:9000 in any browser a response "Hello" should be seen.
 * To know your ip address go to cmd->type ipconfig->ipv4 address is your ip address.
@@ -45,11 +45,11 @@ Something like this must come up.
 * Whenever the "predict" button is clicked the loaded data is converted into a json format and using the ip address and port number provided earlier, the jsonified data is sent to server.
 * Whenever a response is recieved from the server the results are displayed.
 ## ScreenShots
-* Loading of csv
+ Loading of csv
 <img src="images/second.png" width=250><br>
-* Loading one datapoint 
+ Loading one datapoint 
 <img src="images/third.png" width=250><br>
-* Recieving the response from server
+ Recieving the response from server
 <img src="images/fourth.png" width=250><br>
 
 <br>
