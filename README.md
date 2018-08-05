@@ -26,7 +26,12 @@ Something like this must come up.
 * There is a CSV embedded in the android app for testing you can just click the "Load CSV" button to load the csv.
 * After loading the csv Start reading the datapoints one by one.
 **Note**:Since the data embedded inside the android app is random selection of data and if you have trained it in completely different data then some prediction errors may happen. If you want good accuracy then open the android project and copy your testing data in resource->raw directory from android studio and compile the app again.
-
+## File Contents
+* mean_values.csv and var_values.csv these values are used to standarize the test point.
+* final_model.pkl is the final RandomForest model saved .
+**Note**:Replace the above 3 files if you have trained your own model .
+* shr.py this is actual flask web server file responsible to process the data and model is loaded in this file.
+* temp1.py this file contains the class that is responsible for feature engineering the test data(couldn't think of a better name then).
 # Working of the server 
 * In flask there are different routes you can take using the 'ipaddress:portnumber' and for any defined route you have an function associated with it this function will be called if user goes to that route.
 * As you can see in shr.py line 16 , when no route is specified then a function which displays a "Hello" message is  called when a route 'ipaddress:portnumber/api' is mentoned then another function is called.
