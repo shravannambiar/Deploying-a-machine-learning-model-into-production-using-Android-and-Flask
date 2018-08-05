@@ -5,6 +5,7 @@ This project will be a extention to that case study ,I am trying to create an en
 <br>. Here a client server architecture is used, the model is running on a local machine and whenever an android sends data to the server , the server interprets the data, cleans the data and then feeds it to the machine learning model which then gives us a predicted value which is sent to the android .
 * Here cleaning of data means whatever data augmentation feature engineering steps were  performed while creating the model have to be performed on the testing data.So make sure you understand my case study from the above mentioned **link**<br> 
  ## Pre-requisites
+ * You have to first build the model on your machine using the link mentioned above then copy the newly 3 geneterated files into this directory.
  * Make sure flask is installed if not then use this command<br>
  **pip install flask**<br>
  * What is flask?
