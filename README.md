@@ -46,11 +46,11 @@ Something like this must come up.
 * Whenever a response is recieved from the server the results are displayed.
 ## ScreenShots
  Loading of csv
-<img src="images/second.png" width=250><br><br>
+<img src="images/second.png" width=250/><br><br>
  Loading one datapoint 
-<img src="images/third.png" width=250><br><br>
+<img src="images/third.png" width=250/><br><br>
  Recieving the response from server
-<img src="images/fourth.png" width=250><br><br>
+<img src="images/fourth.png" width=250/><br><br>
 
 <br>
 For any queries please email me at shravannambiar@gmail.com
